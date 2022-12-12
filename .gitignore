@@ -6,7 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+# Models
+**datasets/
+**tensorboard_log/
+**trained_models/
+**train_model**
+**result_agent/
+**results/
+**result/
+
 # Distribution / packaging
+.idea/
 .Python
 build/
 develop-eggs/
@@ -138,3 +148,16 @@ ricequant_test.py
 future_trading_wt_test.py
 train_new.py
 execution_optimizing_test.py
+test_ppo
+cache
+price_array.npy
+
+# vscode
+/.vscode
+agents/rllib_models.py
+
+#
+**.vim/
+**tags**
+tutorials/1-Introduction/*.csv
+**venv**/
