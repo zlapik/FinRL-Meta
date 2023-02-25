@@ -27,6 +27,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.vscode
+.vim
+tags
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -110,6 +113,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv
+venv3.10
 
 # Spyder project settings
 .spyderproject
@@ -142,6 +147,3 @@ execution_optimizing_test.py
 test_ppo
 cache
 price_array.npy
-
-# vscode
-/.vscode
